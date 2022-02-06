@@ -81,3 +81,15 @@ input[type=submit]:hover{
      transition: 1s;
  }
   
+
+ /* media queries */
+
+ @media screen and (max-width:500px) {
+
+    input[type=submit]{
+        width: 200px;
+    }
+    
+    input[type=submit]{
+        width: 100px;
+    }
