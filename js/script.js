@@ -1,5 +1,6 @@
 const formulario = document.querySelector('#formulario')
 const resultados = document.querySelector('#resultados')
+// const contenedorError = document.querySelector('#contenedorError')
 
 let ubicacion = window.pageYOffset
 
@@ -29,17 +30,16 @@ function validar(e){
     e.preventDefault()
     const terminoBusqueda = document.querySelector('#termino').value
 
+    
+
     if (terminoBusqueda === ''){
-        alerta()
+        alert('por favor agregue un termino ')
         return
     }
 
     buscarImagenes(terminoBusqueda)
 }
 
-function alerta(){
-    console.log('por favor agregue un termino ')
-}
 
 // consultando api 
 

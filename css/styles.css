@@ -38,8 +38,9 @@ input[type=submit]{
 }
 input[type=submit]:hover{
     background: #333;
-    transition:  ease-in-out 1s;
+    transition:  ease-in-out 0,10s;
     color: #f2f2f2;
+    cursor: pointer;
 }
  /* main  */
 
@@ -81,6 +82,10 @@ input[type=submit]:hover{
      transition: 1s;
  }
   
+/* 
+ .contenedorError{
+     background: ;
+ } */
 
  /* media queries */
 
@@ -93,3 +98,4 @@ input[type=submit]:hover{
     input[type=submit]{
         width: 100px;
     }
+}
